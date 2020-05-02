@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Drone Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <header class="absolute text-white top-0 right-0 p-4">
+      <nav>
+        <ul class="flex justify-center items-center">
+          <li class="px-20py-4">
+            <a href="#models">Drones</a>
+          </li>
+          <li class="px-20 py-4">
+            <a href="#features">Features</a>
+          </li>
+          <li class="px-20 py-4 bg-white text-black">
+            <a href="#buy-now">Buy Now</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="welcome" class="flex justify-between items-center">
+        <div
+          class="flex flex-col items-center justify-center w-full h-full p-16"
+        >
+          <h1 class="text-5xl font-bold p-8">
+            Let's Fly.<br />
+            Higher.
+          </h1>
+          <p class="text-2xl text-center p-8">
+            Dronestore provides high quality drones for professional film
+            makers.
+          </p>
+        </div>
+
+        <img class="w-3/5" src="/assets/header-image.jpg" />
+      </section>
+
+      <section
+        id="models"
+        class="models-animate grid grid-rows-2 grid-cols-3 my-48"
+      >
+        <img class="hide-right opacity-0" src="/assets/drone1.jpg" />
+        <div class="text-center self-center p-4 model-text opacity-0">
+          <h2 class="text-3xl p-4">Spark Series</h2>
+          <p>
+            A mini drone that features all of our signature technologies
+            allowing you to seize the moment whenever you feel inspired.
+          </p>
+        </div>
+        <img class="hide-left opacity-0" src="assets/drone2.jpg" />
+
+        <div class="text-center self-center p-4 model-text opacity-0">
+          <h2 class="text-3xl p-4">Lightbridge 2</h2>
+          <p>Use with other low latency film for the best experience.</p>
+        </div>
+        <img class="hide-bottom opacity-0" src="assets/drone3.jpg" />
+        <div class="text-center self-center p-4 model-text opacity-0">
+          <h2 class="text-3xl p-4">Phantom Series</h2>
+          <p>
+            Featuring a 1-inch CMOS sensor that can shoot 4K/60fps videos and
+            20MP photos.
+          </p>
+        </div>
+      </section>
+
+      <section
+        id="featured-product"
+        class="hide-left bg-gray-800 p-16 flex my-32 justify-center items-center"
+      >
+        <div>
+          <h2 class="text-4xl font-bold text-white">Phantom Pro 5</h2>
+          <ul class="text-2xl text-white my-16">
+            <li class="p-2">4K/60FPS</li>
+            <li class="p-2">1-Inch Sensor</li>
+            <li class="p-2">Mechanical Shutter</li>
+            <li class="p-2">5-Direction Obstacle Sensing</li>
+            <li class="p-2">Ocusync Transmission System</li>
+            <li class="p-2">30-Minute Max Flight Time</li>
+          </ul>
+        </div>
+        <img class="w-3/5" src="assets/featured-drone.png" />
+      </section>
+      <section
+        id="features"
+        class="grid grid-cols-2 grid-rows-3 gap-6 items-center p-6 opacity-0 my-4"
+      >
+        <img src="assets/drone-tracker.jpg" />
+        <div class="text-center p-6">
+          <h2 class="text-4xl font-bold my-6">Active Track</h2>
+          <p class="text-2xl">
+            ActiveTrack can recognize and automatically follow people and
+            objects like cars and boats
+          </p>
+        </div>
+
+        <img src="assets/remote-control.png" />
+        <div class="text-center p-6">
+          <h2 class="text-4xl font-bold my-6">Intuitive Remote Control</h2>
+          <p class="text-2xl">
+            An ultrabright 5.5-inch screen makes vivid colors easily available
+            even in direct sunlight.
+          </p>
+        </div>
+        <img src="assets/drone-battery.jpg" />
+        <div class="text-center p-6">
+          <h2 class="text-4xl font-bold my-6">Intelligent Flight Battery</h2>
+          <p class="text-2xl">
+            Monitor the battery remaining with our app. When the minimum
+            distance required for a safe journey back to the takeoff point is
+            reached, a prompt will alert the pilot.
+          </p>
+        </div>
+      </section>
+      <section id="buy-now" class="p-12 text-center">
+        <h3 class="text-4xl font-bold my-12">From USD $1,559</h3>
+        <button class="bg-gray-800 text-white px-12 py-6 font-bold text-4xl">
+          Buy Now
+        </button>
+      </section>
+      <section id="images" class="overflow-hidden">
+        <div
+          class="image-holder flex items-center justify-center p-12 relative ml-56 w-full move-left"
+        >
+          <img class="w-1/3 mx-6" src="assets/drone-images1.jpg" />
+          <img class="w-1/3 mx-6" src="assets/drone-images5.jpg" />
+          <img class="w-1/3 mx-6" src="assets/drone-images3.jpg" />
+        </div>
+        <div
+          class="image-holder flex items-center justify-end p-12 relative w-full move-right"
+        >
+          <img class="w-1/3 mx-6" src="assets/drone-images4.jpg" />
+          <img class="w-1/3 mx-6" src="assets/drone-images2.jpg" />
+          <img class="w-1/3 mx-6" src="assets/drone-images6.jpg" />
+        </div>
+      </section>
+    </main>
+    <footer id="app-footer" class="text-white overflow-hidden pl-32">
+      <div
+        id="footer-content"
+        class="bg-gray-800 grid grid-cols-3 gap-12 items-center p-12 justify-items-center hide-left"
+      >
+        <div class="opacity-0">
+          <h6 class="text-3xl py-6">Dronestore</h6>
+          <p>2118 Thornridge Cir, Syracuse, Conneticut</p>
+        </div>
+        <div class="opacity-0">
+          <p class="text-2xl font-bold py-6">Support</p>
+          <ul>
+            <li>Product Support</li>
+            <li>Repair Services</li>
+            <li>Help Purchasing</li>
+            <li>After-Sales Service Policies</li>
+            <li>Download Center</li>
+          </ul>
+        </div>
+        <div class="opacity-0">
+          <p class="text-2xl font-bold py-6">Explore</p>
+          <ul>
+            <li>Newsroom</li>
+            <li>Showcase</li>
+            <li>Events</li>
+            <li>Buying Guides</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

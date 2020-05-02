@@ -1,0 +1,53 @@
+@import url("https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600,700&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+#footer-content,
+#featured-product,
+.image-holder {
+  transition: all ease-in-out 1.5s;
+}
+
+#footer-content > *,
+#features {
+  transition: opacity 1s ease-in 1s;
+}
+.hide-left {
+  transform: translateX(100%);
+}
+
+.hide-right {
+  transform: translateX(-100%);
+}
+
+.hide-bottom {
+  transform: translateY(100%);
+}
+
+.hide-top {
+  transform: translateY(-100%);
+}
+
+.move-left {
+  transform: translateX(10%);
+}
+
+.move-right {
+  transform: translateX(-10%);
+}
+
+.models-animate > * {
+  transition: all 2s ease-in-out;
+}
